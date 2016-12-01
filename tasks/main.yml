@@ -1,9 +1,73 @@
 ---
+# AG
+
+- name: Ensure aria2 is installed
+  package:
+    name: aria2
+    state: latest
+
+# ASCIINEMA
+# ATOP
+# BAT
+# BYOBU
+# CLOC
+
 - name: Ensure curl is installed
   package: name=curl state=latest
 
+# DOCKER
+# DSTAT
+# ELINKS
+# EMACS
+# FFMPEG
+# FSWATCH
+# FZF
+# GDB
+# GIT
+# HATOP
+
 - name: Ensure htop is installed
   package: name=htop state=latest
+
+# HTTPIE
+# IFTOP
+# IPTRAF
+# IPTRAF-NG
+# IPCALC
+
+- name: Ensure jq is installed
+  package: name=jq state=latest
+
+# LESS
+# LINKS
+# LINKS2
+# LYNX
+# MERCURIAL
+# MOSH
+# MOST
+# NETCAT
+# NETHOGS
+# NETPIPES
+# NMAP
+# PV
+# OPTIPNG
+# REPO
+# RSYNC
+# RSYNCRYPTO
+# RTORRENT
+# SCREEN
+# SIEGE
+# SIFT
+# SOCAT
+# SQUID3
+# SUBVERSION
+# SSH
+# TERMUI
+# TIG
+# TMUX
+# VIM
+# WEECHAT
+# WGET
 
 - name: Ensure w3m is installed
   package: name=w3m state=latest
