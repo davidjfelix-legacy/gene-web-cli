@@ -4,3 +4,6 @@
 
 - name: Ensure htop is installed
   package: name=htop state=latest
+
+- name: Ensure w3m is installed
+  package: name=w3m state=latest
