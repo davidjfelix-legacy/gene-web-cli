@@ -1,3 +1,6 @@
 ---
 - name: Ensure curl is installed
   package: name=curl state=latest
+
+- name: Ensure htop is installed
+  package: name=htop state=latest
