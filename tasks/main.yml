@@ -1,0 +1,3 @@
+---
+- name: Ensure curl is installed
+  package: name=curl state=latest
